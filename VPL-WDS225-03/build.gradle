@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group = 'de.dhbw.ravensburg'
+version = '1.0-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
