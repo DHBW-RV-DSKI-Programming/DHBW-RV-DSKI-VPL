@@ -9,8 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/VPL-WDS225-01" />
+            <option value="$PROJECT_DIR$/VPL-WDS225-04" />
             <option value="$PROJECT_DIR$/VPL-WDS225-12" />
             <option value="$PROJECT_DIR$/VPL-WDS225-14" />
+            <option value="$PROJECT_DIR$/VPL-WDS225-15" />
           </set>
         </option>
       </GradleProjectSettings>
